@@ -73,13 +73,14 @@ public class SecurityConfig {
         CorsConfiguration configuration =
             new CorsConfiguration();
 
-        configuration.setAllowedOrigins(List.of(
-            "http://localhost:5173",
-            "http://localhost:3000",
-
-            // PUT YOUR REAL VERCEL URL HERE
-            "https://YOUR-VERCEL-APP.vercel.app"
-        ));
+        configuration.setAllowedOrigins(
+        List.of(
+                "http://localhost:5173",
+                "http://localhost:3000",
+                "https://keystone-full-stack-java-git-main-rakeshs-projects-73874f55.vercel.app",
+                "https://keystone-full-stack-java-nnpx939el-rakeshs-projects-73874f55.vercel.app"
+        )
+);
 
         configuration.setAllowedMethods(List.of(
             "GET",
