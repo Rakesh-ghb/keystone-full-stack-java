@@ -80,8 +80,9 @@ public class SecurityConfig {
         List.of(
                 "http://localhost:5173",
                 "http://localhost:3000",
+                "https://keystone-full-stack-java.vercel.app",
                 "https://keystone-full-stack-java-git-main-rakeshs-projects-73874f55.vercel.app",
-                "https://keystone-full-stack-java-nnpx939el-rakeshs-projects-73874f55.vercel.app"
+                "https://keystone-full-stack-java-b7nvbepmw-rakeshs-projects-73874f55.vercel.app"
         )
 );
 
