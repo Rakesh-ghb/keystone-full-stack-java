@@ -77,7 +77,7 @@ public class SecurityConfig {
                 List.of(
                         "http://localhost:5173",
                         "http://localhost:3000",
-                        frontendUrl
+                         "https://YOUR-VERCEL-URL.vercel.app"
                 )
         );
 
